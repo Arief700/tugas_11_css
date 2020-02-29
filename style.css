@@ -1,0 +1,56 @@
+/* *{
+    margin: 0;
+    padding: 0; */
+
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: black;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover a{
+    color: white;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* isi kontent */
+p {
+  height: 200px;
+  column-width: 100px;
+  column-fill: balance;
+  text-align: justify;
+  column-rule: 2px solid black;
+  column-count: 4;
+  font-size: 12px;
+}
+
+.span {
+  column-span: all;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+h2 {
+  color: white;
+}
